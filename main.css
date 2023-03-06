@@ -271,6 +271,21 @@ img {
   max-width: 60px;
 }
 
+/*About*/
+.about__data{
+  text-align: center;
+}
+
+.about__description{
+  margin-bottom: var(--mb-3);
+}
+
+.about__img{
+  width: 280px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
 /*Button*/
 .button {
   display: inline-block;
