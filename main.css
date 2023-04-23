@@ -272,12 +272,26 @@ img {
 }
 
 /*About*/
+.about__initial{
+  color: white;
+}
+.about{
+  background-image: url('/img/gioithiu.jpg');
+  background-size: cover;
+  border-radius: .5em;
+  
+
+}
 .about__data{
   text-align: center;
+  
+  color: white;
+
 }
 
 .about__description{
   margin-bottom: var(--mb-3);
+
 }
 
 .about__img{
@@ -424,6 +438,7 @@ img {
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
 }
+
 
 .services__title{
   font-size: var(--h3-font-size);
